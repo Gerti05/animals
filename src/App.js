@@ -1,7 +1,13 @@
-import AnimalShow from './AnimalShow'
+import AnimalShow from "./AnimalShow";
+import AddAnimalBtn from "./AddAnimalBtn";
 
 function App() {
-    return (<div><AnimalShow /></div>)
+  return (
+    <div>
+      <AddAnimalBtn />
+      <AnimalShow />
+    </div>
+  );
 }
 
 export default App;
