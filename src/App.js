@@ -3,7 +3,7 @@ import AnimalShow from "./AnimalShow";
 import AddAnimalBtn from "./AddAnimalBtn";
 
 function getRandomAnimal() {
-  const animalsArr = ["birds", "cat", "cow", "dog", "gator", "horse"];
+  const animalsArr = ["bird", "cat", "cow", "dog", "gator", "horse"];
 
   return animalsArr[Math.floor(Math.random() * animalsArr.length)];
 }
