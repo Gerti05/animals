@@ -1,6 +1,6 @@
-function AddAnimalBtn() {
+function AddAnimalBtn({count, setCount}) {
   const handleClick = () => {
-    console.log("Button was clicked");
+    setCount(count + 1);
   };
 
   return (

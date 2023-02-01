@@ -1,11 +1,14 @@
+import { useState } from "react";
 import AnimalShow from "./AnimalShow";
 import AddAnimalBtn from "./AddAnimalBtn";
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <div>
-      <AddAnimalBtn />
-      <AnimalShow />
+      <AddAnimalBtn count={count} setCount={setCount} />
+      <AnimalShow count={count} />
     </div>
   );
 }
