@@ -1,6 +1,6 @@
-function AddAnimalBtn({count, setCount}) {
+function AddAnimalBtn({ type, getRandomAnimal, setAnimals }) {
   const handleClick = () => {
-    setCount(count + 1);
+    setAnimals([...type, getRandomAnimal()]);
   };
 
   return (

@@ -1,5 +1,5 @@
-function AnimalShow({count}) {
-  return <div>Animals to show:{count}</div>;
+function AnimalShow({ type }) {
+  return <div>{type}</div>;
 }
 
 export default AnimalShow;
