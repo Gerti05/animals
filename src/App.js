@@ -2,6 +2,8 @@ import { useState } from "react";
 import AnimalShow from "./AnimalShow";
 import AddAnimalBtn from "./AddAnimalBtn";
 
+import "./styles/App.css";
+
 function getRandomAnimal() {
   const animalsArr = ["bird", "cat", "cow", "dog", "gator", "horse"];
 
@@ -16,7 +18,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="app">
       <AddAnimalBtn
         type={animals}
         setAnimals={setAnimals}

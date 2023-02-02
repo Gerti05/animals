@@ -1,28 +1,54 @@
+.animalList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animalsShow {
+  position: relative;
+  border: 1 solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 3px 4px lightgray;
+}
+
 .animalsImg {
-  width: 250px;
+  width: 200px;
 }
 
 .heartImg0 {
-  width: 50px;
+  width: 10px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
 
 .heartImg1 {
-  width: 60px;
+  width: 20px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
 
 .heartImg2 {
-  width: 70px;
+  width: 30px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
 
 .heartImg3 {
-  width: 80px;
+  width: 40px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
 
 .heartImg4 {
-  width: 90px;
+  width: 50px;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
-
-.heartImg5 {
-    width: 100px;
-  }
-  

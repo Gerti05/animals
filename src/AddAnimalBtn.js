@@ -1,3 +1,5 @@
+import "./styles/AnimalBtn.css";
+
 function AddAnimalBtn({ type, getRandomAnimal, setAnimals }) {
   const handleClick = () => {
     setAnimals([...type, getRandomAnimal()]);
@@ -5,7 +7,9 @@ function AddAnimalBtn({ type, getRandomAnimal, setAnimals }) {
 
   return (
     <div>
-      <button onClick={handleClick}>Add Animal</button>
+      <button className="animalBtn" onClick={handleClick}>
+        Add Animal
+      </button>
     </div>
   );
 }

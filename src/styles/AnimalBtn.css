@@ -1,0 +1,9 @@
+.animalBtn {
+  background-color: salmon;
+  border: 1px solid pink;
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
